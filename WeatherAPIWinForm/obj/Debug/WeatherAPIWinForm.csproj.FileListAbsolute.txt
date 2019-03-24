@@ -1,0 +1,10 @@
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\obj\Debug\WeatherAPIWinForm.csprojAssemblyReference.cache
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\obj\Debug\WeatherAPIWinForm.Properties.Resources.resources
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\obj\Debug\WeatherAPIWinForm.csproj.GenerateResource.cache
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\obj\Debug\WeatherAPIWinForm.csproj.CoreCompileInputs.cache
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\bin\Debug\WeatherAPIWinForm.exe.config
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\bin\Debug\WeatherAPIWinForm.exe
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\bin\Debug\WeatherAPIWinForm.pdb
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\obj\Debug\WeatherAPIWinForm.exe
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\obj\Debug\WeatherAPIWinForm.pdb
+C:\Data\Automation\WoolworthsXWeeatherAPI\WeatherAPIWinForm\obj\Debug\WeatherAPIWinForm.WeatherForm.resources

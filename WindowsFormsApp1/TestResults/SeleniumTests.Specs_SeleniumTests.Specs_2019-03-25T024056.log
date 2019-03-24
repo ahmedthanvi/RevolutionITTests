@@ -1,0 +1,142 @@
+﻿2019-03-25T02:40:54.7724430+11:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-03-25T02:40:54.7884334+11:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2019-03-25T02:40:54.7904324+11:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Data\Automation\RevolutionIT\RevolutionITTests\WeatherAPI.Integration.Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-03-25T02:40:56.2396030+11:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-03-25T02:40:56.2406010+11:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Data\Automation\RevolutionIT\RevolutionITTests\WeatherAPI.Integration.Tests\bin\Debug\SeleniumTests.Specs.dll
+2019-03-25T02:40:56.2406010+11:00;VSTestExecutionThread;Info;Profile: SeleniumTests.Specs
+2019-03-25T02:41:10.4345677+11:00;Thread#15;Info;starting test run
+2019-03-25T02:41:10.4435795+11:00;Thread#15;Info;Discovering target: Default
+2019-03-25T02:41:10.4435795+11:00;Thread#15;Info;Discovering tests from assembly: C:\Data\Automation\RevolutionIT\RevolutionITTests\WeatherAPI.Integration.Tests\bin\Debug\SeleniumTests.Specs.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SeleniumTests.Specs/SeleniumTests.Specs - 
+#1: Default - 
+#2: SeleniumTests.Specs - 
+#3: WeatherAPI - 
+#4: A happy holiday maker, Sydney,AU - TestAssembly:SeleniumTests.Specs/Feature:WeatherAPI/Scenario:A+happy+holiday+maker%2c+Sydney%2cAU
+#5: WeatherAPI rejects the request that does not provide API Key - TestAssembly:SeleniumTests.Specs/Feature:WeatherAPI/Scenario:WeatherAPI+rejects+the+request+that+does+not+provide+API+Key
+#6: WeatherAPI returns a json type response when Response mode is set to json - TestAssembly:SeleniumTests.Specs/Feature:WeatherAPI/Scenario:WeatherAPI+returns+a+json+type+response+when+Response+mode+is+set+to+json
+#7: WeatherAPI returns a XML type response when Response mode is set to xml - TestAssembly:SeleniumTests.Specs/Feature:WeatherAPI/Scenario:WeatherAPI+returns+a+XML+type+response+when+Response+mode+is+set+to+xml
+#8: WeatherAPI's default Response mode is JSON - TestAssembly:SeleniumTests.Specs/Feature:WeatherAPI/Scenario:WeatherAPI%27s+default+Response+mode+is+JSON
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SeleniumTests.Specs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I like to holiday in Sydney,AU
+Thread#0:T:done: WeatherAPISteps.GivenILikeToHolidayIn("Sydney,AU") (0.1s)
+Thread#0:B:And I only like to holiday on Thursday
+Thread#0:T:done: WeatherAPISteps.GivenIOnlyLikeToHolidayOn("Thursday") (0.0s)
+Thread#0:B:When I look up the weather forecast
+Thread#0:T:done: WeatherAPISteps.WhenILookUpTheWeatherForecast() (1.0s)
+Thread#0:B:Then I receive the weather forecast
+Thread#0:T:done: WeatherAPISteps.ThenIReceiveTheWeatherForecast() (0.2s)
+Thread#0:B:And the temperature is warmer than 10 degrees
+Thread#0:T:done: WeatherAPISteps.ThenTheTemperatureIsWarmerThanDegrees("10") (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 2.091821 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I like to holiday
+Thread#0:T:done: WeatherAPISteps.GivenILikeToHoliday() (0.0s)
+Thread#0:B:When I look up the weather forecast without providing API Key
+Thread#0:T:done: WeatherAPISteps.WhenILookUpTheWeatherForecastWithoutProvidingAPIKey() (0.1s)
+Thread#0:B:Then I receive Unauthorised error
+Thread#0:T:done: WeatherAPISteps.ThenIReceiveUnauthorisedError() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 0.1209318 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I like to holiday
+Thread#0:T:done: WeatherAPISteps.GivenILikeToHoliday() (0.0s)
+Thread#0:B:When I set response type as json
+Thread#0:T:done: WeatherAPISteps.WhenISetResponseTypeAsJson() (0.3s)
+Thread#0:B:And I look up the weather forecast
+Thread#0:T:done: WeatherAPISteps.WhenILookUpTheWeatherForecast() (0.1s)
+Thread#0:B:Then the response returned is in json format
+Thread#0:T:done: WeatherAPISteps.ThenTheResponseReturnedIsInJsonFormat() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 0.3647897 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I like to holiday
+Thread#0:T:done: WeatherAPISteps.GivenILikeToHoliday() (0.0s)
+Thread#0:B:When I set response type as xml
+Thread#0:T:done: WeatherAPISteps.WhenISetResponseTypeAsXml() (0.1s)
+Thread#0:B:And I look up the weather forecast
+Thread#0:T:done: WeatherAPISteps.WhenILookUpTheWeatherForecast() (0.1s)
+Thread#0:B:Then the response returned is in XML format
+Thread#0:T:done: WeatherAPISteps.ThenTheResponseReturnedIsInXMLFormat() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #8 from normal test queue 
+Thread#0:Scheduler: considering testitem #8 for thread 0
+Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #8 for thread 0
+Thread#0:Scheduler: Test #8 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 0.2278694 seconds
+Thread#0: Test #8/0 is started on thread #0
+Thread#0:B:Given I like to holiday
+Thread#0:T:done: WeatherAPISteps.GivenILikeToHoliday() (0.0s)
+Thread#0:B:When I do not set response type
+Thread#0:T:done: WeatherAPISteps.WhenIDoNotSetResponseType() (0.0s)
+Thread#0:B:And I look up the weather forecast
+Thread#0:T:done: WeatherAPISteps.WhenILookUpTheWeatherForecast() (0.1s)
+Thread#0:B:Then the response returned is in JSON format
+Thread#0:T:done: WeatherAPISteps.ThenTheResponseReturnedIsInJSONFormat() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 0.1099365 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2019-03-25T02:41:13.7886631+11:00;Thread#15;Info;test run finished
+2019-03-25T02:41:13.7896631+11:00;Thread#15;Info;publishing test results
+2019-03-25T02:41:13.8336389+11:00;Thread#15;Info;test results published
+2019-03-25T02:41:13.8336389+11:00;Thread#15;Info;generating reports
+2019-03-25T02:41:13.8436317+11:00;Thread#15;Info;creating 1 report(s)
+2019-03-25T02:41:13.8436317+11:00;Thread#15;Info;generate Report ReportTemplate.cshtml
+2019-03-25T02:41:15.4177294+11:00;Thread#15;Info;reports generated
+Total: 5
+Succeeded: 5
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
+2019-03-25T02:41:15.4307227+11:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-03-25T02:41:15.4317230+11:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Data\Automation\RevolutionIT\RevolutionITTests\WindowsFormsApp1\TestResults\SeleniumTests.Specs_SeleniumTests.Specs_2019-03-25T024056.html'
+2019-03-25T02:41:15.4547083+11:00;VSTestExecutionThread;Info;Log file: file:///C:\Data\Automation\RevolutionIT\RevolutionITTests\WindowsFormsApp1\TestResults\SeleniumTests.Specs_SeleniumTests.Specs_2019-03-25T024056.log
